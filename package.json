@@ -1,0 +1,19 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "web",
+      "backend"
+    ]
+  },
+  "private": true,
+  "author": {
+    "name": "Pedro Henrique",
+    "email": "pedroca21265@gmail.com",
+    "url": "https://pedrinholemes.web.app"
+  },
+  "repository": "https://github.com/pedrinholemes/happy",
+  "homepage": ""
+}
