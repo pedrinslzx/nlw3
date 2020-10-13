@@ -12,6 +12,9 @@ export default createGlobalStyle`
     color: #fff;
   }
   body, input, button, textarea{
-    font: 600 18px Nunito,sans-serif;
+    font: 600 18px Nunito, sans-serif;
+  }
+  a {
+    cursor: pointer;
   }
 `
