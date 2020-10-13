@@ -7,6 +7,9 @@ export const Container = styled.div`
   position: relative;
 
   display: flex;
+  > .leaflet-container {
+    z-index: 5;
+  }
 `
 
 export const SideBar = styled.aside`
@@ -49,6 +52,7 @@ export const CreateOrphanage = styled.a`
   position: absolute;
   right: 48px;
   bottom: 48px;
+  z-index: 10;
 
   width: 64px;
   height: 64px;
