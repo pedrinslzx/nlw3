@@ -2,6 +2,7 @@ import React from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { ThemeProvider } from 'styled-components'
+import 'leaflet/dist/leaflet.css'
 
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'

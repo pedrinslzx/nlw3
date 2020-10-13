@@ -8,8 +8,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #ebf2f5;
-    color: #fff;
+    background: ${p => p.theme.back.default};
+    color: ${p => p.theme.fore.default};
   }
   body, input, button, textarea{
     font: 600 18px Nunito, sans-serif;

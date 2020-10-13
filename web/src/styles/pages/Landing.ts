@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  background: ${p => p.theme.back.gradient};
 
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@ export const EnterApp = styled.a`
 
   height: 80px;
   width: 80px;
-  background: #ffd666;
+  background: ${p => p.theme.yellow.default};
   border-radius: 30px;
 
   display: flex;
@@ -82,14 +82,14 @@ export const EnterApp = styled.a`
 
   svg {
     transition: stroke 0.2s;
-    stroke: #8d734b;
+    stroke: ${p => p.theme.yellow.secondary};
     stroke-width: 4px;
   }
 
   &:hover {
-    background: #96feff;
+    background: ${p => p.theme.blue.default};
     svg {
-      stroke: #15c3d6;
+      stroke: ${p => p.theme.blue.secondary};
     }
   }
 `
