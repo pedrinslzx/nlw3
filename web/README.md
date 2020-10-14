@@ -1,32 +1,17 @@
-# Happy · #NLW03
+# Happy · Web
 
 > Leve a felicidade para o mundo | Visite orfanatos e mude o dia de muitas crianças.
 
-<!-- ### ✨ [Demo API](#) -->
+## Techs
 
-## [Demo WEB](https://happy-pedrinholemes.vercel.app/)
+- [x] Typescript
+- [x] ReactJS
+- [x] NextJS
+- [x] Styled-Components
 
 ## COMANDOS
 
-### [Backend](https://github.com/pedrinholemes/happy/tree/master/backend)
-
 ```sh
-## Entre na pasta
-cd backend
-
-## Instale as dependências
-yarn install
-
-## Iniciar em modo de desenvolvimento
-yarn dev
-```
-
-### [Web](https://github.com/pedrinholemes/happy/tree/master/web)
-
-```sh
-## Entre na pasta
-cd web
-
 ## Instale as dependências
 yarn install
 
