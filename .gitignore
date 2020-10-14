@@ -36,3 +36,5 @@ yarn-error.log*
 
 **/uploads/**
 !**/uploads/.gitkeep
+**/**.sqlite
+**/**.db
