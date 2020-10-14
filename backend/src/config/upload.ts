@@ -6,7 +6,6 @@ export default {
     destination: join(__dirname, '..', '..', 'uploads'),
     filename: (req, file, cb) => {
       const fileName = `${Date.now()}-${file.filename || file.originalname}`
-      console.log(file)
       cb(null, fileName)
     }
   })
